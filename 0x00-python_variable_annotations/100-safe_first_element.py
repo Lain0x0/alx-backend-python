@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" 10_duck typing """
+"""10_Duck_typing - first element of a sequence """
 from typing import Sequence, Any, Union
 
 
