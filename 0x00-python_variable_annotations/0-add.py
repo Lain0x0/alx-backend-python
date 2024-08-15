@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-""" Trying python variable annotations """
+""" 0-add basic python variable annotations """
 
 
 def add(a: float, b: float) -> float:
-    """ return sum of a,b floats """ 
+    """ A function takes two floats and return a float """
     return a + b
