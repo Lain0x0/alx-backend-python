@@ -148,6 +148,6 @@ class TestGithubOrgClient(unittest.TestCase):
                 )
 
         @classmethod
-    def tearDownClass(cls) -> None:
-        """ Removing with tearDownClass prototype """
-        cls.get_patcher.stop()
+        def tearDownClass(cls) -> None:
+            """ Removing with tearDownClass prototype """
+            cls.get_patcher.stop()
