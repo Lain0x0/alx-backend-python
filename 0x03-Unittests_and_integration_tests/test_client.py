@@ -146,3 +146,8 @@ class TestGithubOrgClient(unittest.TestCase):
                 GithubOrgClient("google").public_repos(license="apache-2.0"),
                 self.apache2_repos,
                 )
+
+        @classmethod
+    def tearDownClass(cls) -> None:
+        """ Removing with tearDownClass prototype """
+        cls.get_patcher.stop()
